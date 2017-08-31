@@ -147,4 +147,9 @@ interface IStatusBarService
      * display.
      */
     void suppressAmbientDisplay(boolean suppress);
+
+    /**
+     * Bootleg extensions
+     */
+    void toggleCameraFlash();
 }
