@@ -152,4 +152,8 @@ interface IStatusBarService
      * Bootleg extensions
      */
     void toggleCameraFlash();
+     * Used to show or hide in display fingerprint view.
+     */
+    void showInDisplayFingerprintView();
+    void hideInDisplayFingerprintView();
 }
